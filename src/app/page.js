@@ -2,7 +2,7 @@
 
 import Image from "next/image";
 import "./page.css";
-import arrows from "/public/arrows.png";
+import arrows from "../assets/Arrows.png";
 import { useState } from "react";
 import { convertToBinary, convertToDecimal } from "./utils/functions";
 import Dropnumber from "./components/Dropnumber";
