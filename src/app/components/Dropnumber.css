@@ -1,7 +1,6 @@
 .dropnumber {
     position: absolute;
     top: -10px;
-    left: 0;
     animation: drop  linear infinite;
     font-size: 2em;
     color: rgb(16, 249, 16);
