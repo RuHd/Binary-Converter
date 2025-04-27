@@ -1,0 +1,21 @@
+.dropnumber {
+    position: absolute;
+    top: -10px;
+    left: 0;
+    animation: drop  linear infinite;
+    font-size: 2em;
+    color: rgb(16, 249, 16);
+    opacity: .3;
+    pointer-events: none;
+}
+
+
+@keyframes drop {
+    0% {
+        transform: translateY(-50px);
+    }
+    100% {
+        transform: translateY(100vh);
+    }
+    
+}
